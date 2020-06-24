@@ -1,0 +1,13 @@
+Read a,b,E
+Compute f(a) and f(b)
+for i=1 to n in steps of 1 do
+m=af(b)-bf(a)/f(b)-f(a)
+if(|f(m)|<E) then
+a=b
+b=m
+endif
+else
+Write does not converge a,b,f(a),f(b)
+endfor
+Write convergent solution m,f(m)
+stop

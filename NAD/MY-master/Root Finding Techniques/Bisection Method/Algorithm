@@ -1,0 +1,14 @@
+Read a,b,E
+i=0
+if f(a)*f(b)>0 the begin write 'starting values unsuitable'
+endif
+while |f(m)|<0 do
+begin
+m=(a+b)/2
+i=i+1
+if f(a)*f(b)>0 then a=m else b=m
+endif
+write 'Solution converges to a root'
+write 'Number of iterations=',i
+write m,f(m)
+stop

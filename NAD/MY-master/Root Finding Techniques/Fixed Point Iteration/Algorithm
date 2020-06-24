@@ -1,0 +1,10 @@
+start
+Read x,,epsilon(absolute error),x_before=0,i
+Calculate f(x) and g(x)                           //f(x)=putting x in the fxn,g(x)=differentiation of f(x)
+while (|x-x_before|>epsilon)
+x_before=x
+x=g(x)
+print (i, "{0:.6f}".format(x), "{0:.6f}".format(abs(x - x_before)))
+i=i+1
+end loop
+

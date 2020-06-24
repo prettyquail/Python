@@ -1,0 +1,16 @@
+  
+Consider the system of linear equations-
+a1x+b1y+c1z=d1
+a2x+b2y+c2z=d2
+a3x+b3y+c3z=d3
+Solve given equations for x,y and z
+x=1/a1[d1-b1y-c1z]----------------------------------------------------1)
+y=1/b2[d2-a2y-c2z]----------------------------------------------------2)
+z=1/c3[d3-a3x-b3y]----------------------------------------------------3)
+First Approximation- put y=z=0 into (1) and find x1
+                     put x=z=0 into (2) and find y1
+                     put x=y=0 into (3) and find z1
+Second Approximation-put y=y1 and z=z1 into (1) and find x2
+                     put x=x1 and z=z1 into (2) and find y2
+                     put x=x1 and y=y1 into (3) and find z2
+Repeat above steps untill the required solution 
